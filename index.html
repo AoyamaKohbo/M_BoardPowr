@@ -63,7 +63,7 @@
       i=\frac{v_O-v_F}{R_F}\label{eq:FormP3}
     \end{align}
 
-   <p>式\eqref{eq:Form1}、\eqref{eq:Form2}、\eqref{eq:Form3}から次式が得られます。</p>
+   <p>式\eqref{eq:FormP1}、\eqref{eq:FormP2}、\eqref{eq:FormP3}から次式が得られます。</p>
     \begin{align}
      \left.
       \begin{array}{@{\,}c}
@@ -74,7 +74,7 @@
      \right\}      \label{eq:FormP4}    
     \end{align}
 
-   <p>式\eqref{eq:Form4}から次式が得られます。</p>
+   <p>式\eqref{eq:FormP4}から次式が得られます。</p>
 
     \begin{align}
       i=\frac{v_I-2v_B}{R_F}\label{eq:FormP5}
@@ -107,7 +107,7 @@
       i=\frac{v_O-v_F}{R_F}\label{eq:FormN3}
     \end{align}
 
-   <p>式\eqref{eq:Form1}、\eqref{eq:Form2}、\eqref{eq:Form3}から次式が得られます。</p>
+   <p>式\eqref{eq:FormN1}、\eqref{eq:FormN2}、\eqref{eq:FormN3}から次式が得られます。</p>
     \begin{align}
      \left.
       \begin{array}{@{\,}c}
@@ -118,56 +118,13 @@
      \right\}      \label{eq:FormN4}    
     \end{align}
 
-   <p>式\eqref{eq:Form4}から次式が得られます。</p>
+   <p>式\eqref{eq:FormN4}から次式が得られます。</p>
 
     \begin{align}
       i=-\frac{v_I+2v_B}{R_F}\label{eq:FormN5}
     \end{align}
 
    <p>パワー出力ボードでは\(R=10k\Omega\)、フィードバック抵抗(セメント抵抗)\(R_F=1\Omega\)としています。</p>
-
-     <p>n型MOS FETは2SK2231とp型MOS FETは2SJ377を使った電流(両波)増幅回路は下図となります。
-
-     <img src="CurAmp.jpg" width=500px>
-
-   <p>回路図の接点g-c間を流れる電流\(i_{gc}\)と接点c-d間を流れる電流\(i_{cd}\)は等しくなります。
-    オペアンプの入力接点bcの電位を\(v_A\)、接点dの電位を\(v_O\)としてします。</p>
- 
-    \begin{align}
-      -\frac{v_A}{R/2}=\frac{v_A-v_O}{R}\label{eq:Form1}
-    \end{align}
- 
-   <p>回路図の接点a-b間を流れる電流\(i_{gc}\)と接点b-e間を流れる電流\(i_{be}\)の和は
-    接点a-b間を流れる電流\(i_{bg}\)と等しくなります。接点eの電位を\(v_F\)としてします。</p>
-
-    \begin{align}
-      \frac{v_I-v_A}{R}+\frac{v_F-v_A}{R}=\frac{v_A}{R}\label{eq:Form2}
-    \end{align}
-
-   <p>回路図の接点d-e間を流れる電流\(i\)とします。</p>
-
-    \begin{align}
-      i=\frac{v_O-v_F}{R_F}\label{eq:Form3}
-    \end{align}
-
-   <p>式\eqref{eq:Form1}、\eqref{eq:Form2}、\eqref{eq:Form3}から次式が得られます。</p>
-    \begin{align}
-     \left.
-      \begin{array}{@{\,}c}
-        v_O=3v_A\\
-        v_I+v_F=3v_A\\
-        v_F=R_Fi
-      \end{array}
-     \right\}      \label{eq:Form4}    
-    \end{align}
- 
-   <p>式\eqref{eq:Form4}から次式が得られます。</p>
-
-    \begin{align}
-      i=\frac{v_I}{R_F}\label{eq:Form5}
-    \end{align}
-
-   <p>パワー出力ボードでは\(R=10k\Omega\)、\(R_F=1\Omega\)(セメント抵抗)としています。</p>
    
    <p><a href="https://aoyamakohbo.github.io/Craftlogy/">->TOP</a></p>
 </body>
